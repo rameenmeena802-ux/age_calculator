@@ -1,0 +1,92 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  /* 4 COLOR GRADIENT */
+  background: linear-gradient(135deg, 
+    #667eea, 
+    #764ba2, 
+    #ff758c, 
+    #ff7eb3
+  );
+
+  color:#fff;
+}
+
+/* GLASS CARD */
+.container{
+  width:350px;
+  padding:25px;
+  border-radius:20px;
+  backdrop-filter: blur(20px);
+  background: rgba(255,255,255,0.1);
+  box-shadow:0 10px 40px rgba(0,0,0,0.4);
+  text-align:center;
+}
+
+h2{
+  margin-bottom:15px;
+}
+
+/* INPUTS */
+input{
+  width:100%;
+  padding:12px;
+  margin:8px 0;
+  border:none;
+  border-radius:12px;
+  background:rgba(255,255,255,0.2);
+  color:#fff;
+  outline:none;
+}
+
+/* BUTTONS */
+button{
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  border:none;
+  border-radius:12px;
+  background:#fff;
+  color:#333;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  transform:scale(1.05);
+  background:#ddd;
+}
+
+/* RESULT CARD */
+.result{
+  margin-top:15px;
+  padding:15px;
+  border-radius:15px;
+  background:rgba(0,0,0,0.3);
+  transition:0.3s;
+}
+
+/* IMAGE */
+.result img{
+  width:90px;
+  height:90px;
+  border-radius:50%;
+  margin-top:10px;
+  border:3px solid #fff;
+}
+
+/* DARK MODE */
+.dark{
+  background:#111;
+}
